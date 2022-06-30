@@ -24,7 +24,8 @@ MSYS2 is a collection of tools and libraries providing you with an easy-to-use e
 # Useful Websites
 
 * [W3Schools - C++](https://www.w3schools.com/cpp/)
+* [cplusplus](https://cplusplus.com/doc/tutorial/files/)
 
 # Future Work
 
-* Fix the user file with credentials
+* Add multiple login credentials

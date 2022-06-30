@@ -14,7 +14,7 @@ bool IsLoggedIn() {
     cout << "Enter password: ";
     cin >> password;
 
-    ifstream read("GitHub\\" + username + ".txt");
+    ifstream read("text.txt");
     getline(read, un);
     getline(read, pw);
 
@@ -42,7 +42,7 @@ int main() {
         cin >> password;
 
         ofstream file;
-        file.open("GitHub\\" + username + ".txt");
+        file.open("text.txt");
         file << username << endl << password;
         file.close();
 
